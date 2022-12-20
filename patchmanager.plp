@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp codebase="https://nconnect.nasa.gov/webstart" spec="1.0+">
+  <information>
+    <title>PATCH MANAGER</title>
+    <vendor>Patchmanager B.V.</vendor>
+    <homepage href="http://www.patchmanager.com"/>
+    <description>PATCH MANAGER</description>
+    <offline-allowed/>
+  </information>
+  <security>
+    <all-permissions/>
+  </security>
+  <download-strategy>standard</download-strategy>
+  <resources>
+    <j2se
+      version="1.6+"
+      java-vm-args="-Xms256m -XX:MinHeapFreeRatio=25 -XX:MaxHeapFreeRatio=70 -Dsun.java2d.dpiaware=false"
+      />
+    <jar download="eager" href="patchmanager_202209.jar" main="true" version="29572"/>
+    <jar href="/webstart/lib/activation-1.1_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/boxable-1.5-RC_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/castor-1.2_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/common-image-3.5_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/common-io-3.5_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/common-lang-3.5_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/commons-beanutils-1.9.2_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/commons-codec-1.9_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/commons-collections-3.2.2_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/commons-csv-1.2_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/commons-digester-1.7_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/commons-lang-2.2_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/connector-1.0_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/core-4.11_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/dom4j-1.6.1_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/DynamicJasper-5.0.2_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/fontbox-2.0.2_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/gluegen-rt-main-2.4.0-rc-nocodebase_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/guava-18.0_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/httpclient-4.1.3_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/httpcore-4.1.4_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/imageio-core-3.5_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/imageio-jpeg-3.5_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/imageio-metadata-3.5_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/infonode-0.0.2_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/itext-2.1.4_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/jackson-annotations-2.0.5_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/jackson-core-2.0.5_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/jackson-databind-2.0.5_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/jasperreports-5.2.0_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/jasperreports-fonts-5.2.0-unicode_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/jasypt-1.5_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/javahelp-2.0.02_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/javax.json-1.0.4_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/jbreadcrumb-1.0_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/jcl-over-slf4j-1.7.25_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/jcommon-1.0.15_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/jfreechart-1.0.16_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/jgraphx-3.4.1.2_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/jinput-2.0.0-b1_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/jnlp-0.0.1_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/jogl-all-main-2.4.0-rc-nocodebase_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/jul-to-slf4j-1.7.25_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/juniversalchardet-1.0.3_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/l2fprod-0.0.1.1_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/log4j-1.2.17_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/mailapi-1.4.2_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/orange-extensions-1.3.0_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/pdfbox-2.0.2_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/poi-3.9_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/poi-ooxml-3.9_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/poi-ooxml-schemas-3.9_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/rxtx-2.1.7_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/slf4j-api-1.7.25_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/sanselan-0.97-incubator_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/slf4j-log4j12-1.7.25_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/spiffyframework-core-0.05_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/spring-asm-3.1.2.RELEASE_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/spring-beans-3.1.2.RELEASE_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/spring-core-3.1.2.RELEASE_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/stax-api-1.0.1_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/supercsv-1.52_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/svg-salamander-1.1.2_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/xml-apis-1.3.02_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/xmlbeans-2.3.0_202209.jar" version="29572"/>
+    <jar href="/webstart/lib/zip4j-1.3.2_202209.jar" version="29572"/>
+    <property name="jnlp.versionEnabled" value="true"/>
+  </resources>
+  <resources os="Linux" arch="amd64">
+    <nativelib href="/webstart/lib/gluegen-rt-all-natives-linux-amd64-2.4.0-rc-rooted-all_202209.jar" version="29572"/>
+    <nativelib href="/webstart/lib/jogl-all-natives-linux-amd64-2.4.0-rc-rooted-all_202209.jar" version="29572"/>
+    <nativelib href="/webstart/lib/rxtx-natives-linux-amd64-2.1.7_202209.jar" version="29572"/>
+    <property name="jnlp.versionEnabled" value="true"/>  </resources>
+  <resources os="Linux" arch="x86_64">
+    <nativelib href="/webstart/lib/gluegen-rt-all-natives-linux-amd64-2.4.0-rc-rooted-all_202209.jar" version="29572"/>
+    <nativelib href="/webstart/lib/jogl-all-natives-linux-amd64-2.4.0-rc-rooted-all_202209.jar" version="29572"/>
+    <nativelib href="/webstart/lib/rxtx-natives-linux-amd64-2.1.7_202209.jar" version="29572"/>
+    <property name="jnlp.versionEnabled" value="true"/>  </resources>
+  <resources os="Mac OS X" arch="i386">
+    <nativelib href="/webstart/lib/gluegen-rt-natives-macosx-universal-2.4.0-rc-nocodebase_202209.jar" version="29572"/>
+    <nativelib href="/webstart/lib/jogl-all-natives-macosx-universal-2.4.0-rc-nocodebase_202209.jar" version="29572"/>
+    <nativelib href="/webstart/lib/rxtx-comm-natives-macosx-universal-2.1.7_202209.jar" version="29572"/>
+    <property name="jnlp.versionEnabled" value="true"/>  </resources>
+  <resources os="Mac OS X" arch="x86_64">
+    <nativelib href="/webstart/lib/gluegen-rt-natives-macosx-universal-2.4.0-rc-nocodebase_202209.jar" version="29572"/>
+    <nativelib href="/webstart/lib/jogl-all-natives-macosx-universal-2.4.0-rc-nocodebase_202209.jar" version="29572"/>
+    <nativelib href="/webstart/lib/rxtx-comm-natives-macosx-universal-2.1.7_202209.jar" version="29572"/>
+    <property name="jnlp.versionEnabled" value="true"/>  </resources>
+  <resources os="Windows" arch="amd64">
+    <nativelib href="/webstart/lib/gluegen-rt-natives-windows-amd64-2.4.0-rc-nocodebase_202209.jar" version="29572"/>
+    <nativelib href="/webstart/lib/jogl-all-natives-windows-amd64-2.4.0-rc-nocodebase_202209.jar" version="29572"/>
+    <nativelib href="/webstart/lib/rxtx-natives-windows-amd64-2.1.7_202209.jar" version="29572"/>
+    <property name="jnlp.versionEnabled" value="true"/>  </resources>
+  <resources os="Windows" arch="x86_64">
+    <nativelib href="/webstart/lib/gluegen-rt-natives-windows-amd64-2.4.0-rc-nocodebase_202209.jar" version="29572"/>
+    <nativelib href="/webstart/lib/jogl-all-natives-windows-amd64-2.4.0-rc-nocodebase_202209.jar" version="29572"/>
+    <nativelib href="/webstart/lib/rxtx-natives-windows-amd64-2.1.7_202209.jar" version="29572"/>
+    <property name="jnlp.versionEnabled" value="true"/>  </resources>
+  <resources os="Linux">
+    <nativelib href="/webstart/lib/jinput-natives-linux-2.0.5_202209.jar" version="29572"/>
+    <property name="jnlp.versionEnabled" value="true"/>  </resources>
+  <resources os="Mac OS X">
+    <nativelib href="/webstart/lib/jinput-natives-osx-2.0.5_202209.jar" version="29572"/>
+    <property name="jnlp.versionEnabled" value="true"/>  </resources>
+  <resources os="Windows">
+    <nativelib href="/webstart/lib/jinput-natives-windows-2.0.5_202209.jar" version="29572"/>
+    <property name="jnlp.versionEnabled" value="true"/>  </resources>
+  <resources os="Linux" arch="x86">
+    <nativelib href="/webstart/lib/rxtx-natives-linux-i586-2.1.7_202209.jar" version="29572"/>
+    <property name="jnlp.versionEnabled" value="true"/>  </resources>
+  <resources os="Linux" arch="i386">
+    <nativelib href="/webstart/lib/rxtx-natives-linux-i586-2.1.7_202209.jar" version="29572"/>
+    <property name="jnlp.versionEnabled" value="true"/>  </resources>
+  <resources os="Windows" arch="x86">
+    <nativelib href="/webstart/lib/rxtx-natives-windows-i586-2.1.7_202209.jar" version="29572"/>
+    <property name="jnlp.versionEnabled" value="true"/>  </resources>
+
+  <application-desc main-class="com.patchmanager.client.Main">
+  <argument>-decorateDialogs</argument>
+  <argument>false</argument>  
+  <argument>-browser</argument>
+  <argument>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36</argument>
+  <argument>-httpWrapper</argument>
+  <argument>false</argument>
+  <argument>-proxyHost</argument>
+  <argument>none</argument>
+  <argument>-proxyPort</argument>
+  <argument>-1</argument>
+  <argument>-proxyUsername</argument>
+  <argument>none</argument>
+  <argument>-proxyPassword</argument>
+  <argument>none</argument>
+  <argument>-proxyHostExternal</argument>
+  <argument>none</argument>
+  <argument>-proxyPortExternal</argument>
+  <argument>-1</argument>
+  <argument>-proxyUsernameExternal</argument>
+  <argument>none</argument>
+  <argument>-proxyPasswordExternal</argument>
+  <argument>none</argument>
+  <argument>-initialOverview</argument>
+  <argument>Enterprise</argument>
+  <argument>-webApplication</argument>
+  <argument>https://nconnect.nasa.gov</argument>
+    <argument>-ssl</argument>
+    
+    
+    
+    
+    <argument>-accessToken</argument>
+<argument>QTjPOM774tNlhBbpLHRfJ3ifKrVL3DhXhgsPpcYiskE=@@o2cfOoNKMZVfZ1LuJBWAWw==</argument>
+
+  </application-desc>
+</jnlp>
+
