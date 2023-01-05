@@ -8,9 +8,21 @@ My own azure resume, following [ACG project video.](https://www.youtube.com/watc
 - Frontend folder contains the website.
 - editing main.js file and adding visitor counter code.
 
-## Second steps:
+## Second Steps:
 # Building the backend
 - Setting up CosmosDB account
 - Creating the Azure Function app
 - Testing function app locally
 - Binding the app to azure storage
+
+## Third Steps:
+# Deplying to Azure
+-Deplying the function app from VSCode to Azure 
+Deplying Azure static website to Blob Container
+Setting up Azure CDN
+
+## Fourth Steps:
+# Creating CI/CD Pipline
+-Creating frontend workflow 
+-Implementing unit testing
+-Crating backend workflow
