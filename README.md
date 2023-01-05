@@ -18,8 +18,8 @@ My own azure resume, following [ACG project video.](https://www.youtube.com/watc
 ## Third Steps:
 # Deplying to Azure
 -Deplying the function app from VSCode to Azure 
-Deplying Azure static website to Blob Container
-Setting up Azure CDN
+-Deplying Azure static website to Blob Container
+-Setting up Azure CDN
 
 ## Fourth Steps:
 # Creating CI/CD Pipline
